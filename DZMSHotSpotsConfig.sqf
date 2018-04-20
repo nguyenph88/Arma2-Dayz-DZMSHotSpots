@@ -8,7 +8,7 @@
 DZMSHotSpotsMissHumanity = true;
 
 // How Much Humanity?
-DZMSHotSpotsCntHumanity = 10;
+DZMSHotSpotsCntHumanity = 20;
 
 // Do You Want AI to use NVGs?
 //(They are deleted on death)
@@ -26,7 +26,7 @@ DZMSHotSpotsCleanDeath = false;
 
 // Do you want AI that players run over to not have gear?
 // (If DZMSHotSpotsCleanDeath is true, this doesn't matter)
-DZMSHotSpotsRunGear = false;
+DZMSHotSpotsRunGear = true;
 
 // How long before bodies disappear? (in seconds) (default = 2400)
 DZMSHotSpotsBodyTime = 2400;
@@ -313,6 +313,60 @@ DZMSHotSpotsMiroslavl = [
 [ 8890.0, 12704.0, 0.0]
 ];
 
+// addded by tempted_ : github.com/nguyenph88
+DZMSHotSpotsLingor = [
+[3179.40,9357.00,0],
+[4065.40,9253.00,0],
+[3045.40,8066.00,0],
+[843.400,8264.00,0],
+[1325.40,7452.00,0],
+[960.400,7353.00,0],
+[5196.40,7020.00,0],
+[4355.40,6771.00,0],
+[3834.40,6465.00,0],
+[3551.40,6425.00,0],
+[2948.40,6513.00,0],
+[3245.40,6175.00,0],
+[3149.40,5852.00,0],
+[3001.40,6302.00,0],
+[2778.40,5851.00,0],
+[2814.40,5613.00,0],
+[2707.40,5347.00,0],
+[3118.40,5425.00,0],
+[3365.40,5181.00,0],
+[3130.40,5428.00,0],
+[3351.40,5191.00,0],
+[4314.40,4951.00,0],
+[3959.40,4200.00,0],
+[5455.40,5078.00,0],
+[3060.40,4620.00,0],
+[2979.40,3803.00,0],
+[3531.40,3766.00,0],
+[4364.40,3568.00,0],
+[3593.40,2801.00,0],
+[2298.40,2671.00,0],
+[4146.40,2361.00,0],
+[4641.40,1868.00,0],
+[5325.40,2133.00,0],
+[1083.40,2283.00,0],
+[793.400,1656.00,0],
+[545.400,1338.00,0],
+[1161.40,710.000,0],
+[1822.40,686.000,0],
+[855.400,4964.00,0],
+[889.400,5569.00,0],
+[8750.80,4368.00,0],
+[9237.40,3770.00,0],
+[8353.60,3040.00,0],
+[8348.40,743.000,0],
+[9133.60,7128.00,0],
+[8449.60,7908.00,0],
+[8314.40,8292.00,0],
+[6786.40,1617.00,0],
+[6802.40,2487.00,0]
+
+];
+
 // array of possible roadblock locations
 DZMSRoadBlocksCherno = [
 [10436.0,  9132.2, 0.0],
@@ -546,13 +600,35 @@ DZMSRoadBlocksMiroslavl = [
 [ 1860.2,  6227.8, 0.0]
 ];
 
+// added by tempted_ github.com/nguyenph88
+DZMSRoadBlocksLingor = [
+[7247.40,2245.00,0],
+[7486.40,2963.00,0],
+[5773.60,2108.00,0],
+[4992.40,2529.00,0],
+[4072.40,2034.00,0],
+[3678.40,1597.00,0],
+[1765.40,1800.00,0],
+[766.400,1152.00,0],
+[845.400,5204.00,0],
+[2070.40,5067.00,0],
+[2876.40,5155.00,0],
+[3085.40,3892.00,0],
+[5425.60,5348.00,0],
+[6565.60,5616.00,0],
+[6565.60,6640.00,0],
+[4465.60,6168.00,0],
+[3273.60,6416.00,0],
+[4069.40,8209.00,0]
+];
+
 // choose/uncomment map specific coordinates
 // Chernarus:
 // DZMSHotSpotsStatLocs = DZMSHotSpotsCherno; 
 // DZMSRoadBlocksStatLocs = DZMSRoadBlocksCherno;
 // Napf:
- DZMSHotSpotsStatLocs = DZMSHotSpotsNapf;   
- DZMSRoadBlocksStatLocs = DZMSRoadBlocksNapf;
+// DZMSHotSpotsStatLocs = DZMSHotSpotsNapf;   
+// DZMSRoadBlocksStatLocs = DZMSRoadBlocksNapf;
 // Taviana:
 // DZMSHotSpotsStatLocs = DZMSHotSpotsTaviBase; 
 // DZMSRoadBlocksStatLocs = DZMSRoadBlocksTaviBase;
@@ -565,6 +641,9 @@ DZMSRoadBlocksMiroslavl = [
 // Miroslavl: thanks to NigeyS
 // DZMSHotSpotsStatLocs = DZMSHotSpotsMiroslavl; 
 // DZMSRoadBlocksStatLocs = DZMSRoadBlocksMiroslavl;
+// Lingor: thnaks tempted_ github.com/nguyenph88
+DZMSHotSpotsStatLocs = DZMSHotSpotsLingor; 
+DZMSRoadBlocksStatLocs = DZMSRoadBlocksLingor;
 
 // how many hotspots per mission
 DZMSHotSpotsNumber = 5;
